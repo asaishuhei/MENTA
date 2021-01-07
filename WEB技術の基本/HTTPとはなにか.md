@@ -27,8 +27,12 @@ HTTPレスポンス内には、HTTPリクエストに対するWebサーバー内
 - ５００番台：Webサーバー側のエラーであることを通知している。
 
 ### 上記の内容を実際に処理が行われた画像で説明する
+[![Image from Gyazo](https://i.gyazo.com/3eb7baef71dc2488a9078063180aac01.png)](https://gyazo.com/3eb7baef71dc2488a9078063180aac01)
+
 - Request URL：Webサーバーに『』を要求している。
 - Request Method：URLにHTMLファイルや画像といったデータを取得する際に使われるGETメソッドが利用されている。
 - Status Code：リクエストされたコンテンツが未更新であることを意味するステータスコード『304』が通知されている。
+
+[![Image from Gyazo](https://i.gyazo.com/e91685442505e885e6fea3db722f7274.png)](https://gyazo.com/e91685442505e885e6fea3db722f7274)
 
 『リクエスト』をみてみると、クライアント側から要求されたリクエストURLをWebサーバー側が処理し、要求されたHTMLファイルの内容がレスポンスされているのが分かる。
